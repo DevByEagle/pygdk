@@ -1,0 +1,3 @@
+from typing import Tuple
+
+def init() -> Tuple[int, int]: ...
