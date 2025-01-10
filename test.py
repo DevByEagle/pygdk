@@ -1,8 +1,5 @@
 import pygdk
-import pygame
+import pygdk.constants
 
-def test():
-    pygdk.init()
-
-if __name__ == '__main__':
-    test()
+pygdk.init()
+pygdk.display.SetTitle('Hello World')

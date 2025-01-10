@@ -10,9 +10,8 @@ readme = "README.md"
 requires-python = ">=3.10"
 #classifiers = []
 dependencies = [
-     "PyOpenGL",
-     "glfw",
-     "typing"
+     "typing",
+     "PyQt5"
 ]
 
 [project.urls]
