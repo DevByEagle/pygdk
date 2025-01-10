@@ -10,8 +10,8 @@ readme = "README.md"
 requires-python = ">=3.10"
 #classifiers = []
 dependencies = [
-     "typing",
-     "PyQt5"
+     "pygame",
+     "typing"
 ]
 
 [project.urls]

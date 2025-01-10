@@ -1,5 +1,10 @@
+import pygame
 import pygdk
-import pygdk.constants
 
-pygdk.init()
-pygdk.display.SetTitle('Hello World')
+def main():
+    pygdk.SetWindowSize(800, 600)
+    pygdk.display.SetTitle('Hello World')
+    pygdk.Show()
+
+if __name__ == '__main__':
+    main()

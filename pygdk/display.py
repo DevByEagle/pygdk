@@ -1,5 +1,4 @@
-from pygdk.constants import window
+import pygame
 
 def SetTitle(title):
-    if window:
-        window.setWindowTitle(title)
+    pygame.display.set_caption(title)

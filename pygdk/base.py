@@ -1,13 +1,13 @@
-import sys
-from PyQt5.QtWidgets import QApplication, QWidget
+import pygame
+pygame.init()
 
-from pygdk.constants import window
+def SetWindowSize(width, height):
+    pygame.display.set_mode((width, height))
 
-def init():
-    global window
-    
-    app = QApplication(sys.argv)
-    window = QWidget()
-    
-    window.show()
-    sys.exit(app.exec_())
+def Show():
+    running = True
+    while running:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+    pygame.quit()
