@@ -1,3 +1,0 @@
-from typing import NoReturn
-
-def SetTitle(title: str) -> NoReturn: ...
