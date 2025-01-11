@@ -1,0 +1,3 @@
+from typing import NoReturn
+
+def init(width: int, height: int , title: str) -> NoReturn: ...

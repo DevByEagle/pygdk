@@ -13,7 +13,7 @@ setup(
     version='1.0.0.dev1',
     license='MIT',
     # url='',
-    description='The Python General Development Kit',
+    description='Python General Development Kit',
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
     packages=find_packages(),
