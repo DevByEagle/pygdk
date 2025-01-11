@@ -31,6 +31,6 @@ Start using **Pygdk** with minimal setup:
 import pygdk
 
 pygdk.init(800, 600, "Example")
-pygdk.drawText("Hello World", font=("Roboto", 20), color="blue")
+pygdk.drawText("Hello World")
 pygdk.show()
 ```
