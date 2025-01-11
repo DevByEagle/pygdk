@@ -18,6 +18,9 @@ setup(
     long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=REQUIRES,
+    #extras_require={},
+    #dependency_links=[],
+    keywords="GUI,Cross-Platform, Lightweight, Fast",
     project_urls={
         # "Documentation": "",
         "Issue Tracker": "https://github.com/DevByEagle/pygdk/issues",
@@ -34,5 +37,8 @@ setup(
         # "Topic :: Multimedia :: Graphics",
         # "Operating System :: Microsoft :: Windows",
     ],
-    python_requires=">=3.10"
+    python_requires=">=3.10",
+    zip_safe=False,
+    include_package_data=True,
+    platforms=["any"],
 )
