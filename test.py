@@ -1,5 +1,5 @@
 import pygdk
-import pygdk.display
 
-pygdk.init(800, 600, "")
-pygdk.display.SetTitle("Hello World")
+if __name__ == "__main__":
+    pygdk.init(800, 600, "Hello World")
+    pygdk.drawText("Hello World")

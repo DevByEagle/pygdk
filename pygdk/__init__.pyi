@@ -1,8 +1,11 @@
-from pygdk import (
-    base as base,
-    # display as display, 
-)
+# Global Imports
+from typing import NoReturn
 
-from .base import (
-    init as init,
-)
+#======================================
+# Window and Graphics Device Functions
+#======================================
+def init(width: int, height: int, title: str) -> NoReturn: ...
+
+#======================================
+# Font and Text Functions
+#======================================
