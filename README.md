@@ -15,11 +15,11 @@ Install **Pygdk** directly from PyPI:
 pip install pygdk
 ```
 
-Or install the latest development version:
+<!-- Or install the latest development version: -->
 
-```bash
+<!-- ```bash
 pip install git+https://github.com/DevByEagle/pygdk.git
-```
+``` -->
 
 ---
 

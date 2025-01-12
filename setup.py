@@ -34,11 +34,11 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
-        # "Topic :: Multimedia :: Graphics",
+        "Topic :: Multimedia :: Graphics",
         # "Operating System :: Microsoft :: Windows",
     ],
     python_requires=">=3.10",
     zip_safe=False,
-    include_package_data=True,
-    platforms=["any"],
+    # platforms=["any"],
+    platforms=["Windows", "Linux"]
 )

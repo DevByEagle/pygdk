@@ -54,3 +54,6 @@ coverage.xml
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Project File/Folders
+test_pygdk.py
