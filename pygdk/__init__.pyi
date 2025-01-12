@@ -1,11 +1,12 @@
 from pygdk import (
-    runtime as runtime,
-    color as color
+    surface as surface,
+    math as math,
+    draw as draw
 )
 
-from .color import Color as Color
-from .runtime import (
-    init as init,
-    show as show,
-    drawText as drawText 
+from .math import Vector2 as Vector2
+from .surface import Surface as Surface
+
+from .draw import (
+    drawText as drawText
 )

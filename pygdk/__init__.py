@@ -1,6 +1,7 @@
-from pygdk.runtime import *
+from pygdk.surface import *
+from pygdk.draw import *
 
-import pygdk.color
-Color = pygdk.color.Color
+import pygdk.math
+Vector2 = pygdk.math.Vector2
 
 del pygdk
