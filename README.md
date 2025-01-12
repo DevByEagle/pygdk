@@ -30,7 +30,7 @@ Start using **Pygdk** with minimal setup:
 ```python
 import pygdk
 
-pygdk.init(800, 600, "Example")
-pygdk.drawText("Hello World")
-pygdk.show()
+window = pygdk.Surface(pygdk.Vector2(800, 600), "Example")
+pygdk.drawText(window, "Hello World", None, None)
+window.show()
 ```
