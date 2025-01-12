@@ -29,8 +29,4 @@ Start using **Pygdk** with minimal setup:
 
 ```python
 import pygdk
-
-window = pygdk.Surface(pygdk.Vector2(800, 600), "Example")
-pygdk.drawText(window, "Hello World", None, None)
-window.show()
 ```
