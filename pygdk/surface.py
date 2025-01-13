@@ -1,3 +1,4 @@
+from .math import Vector2
 from typing import Sequence
 import customtkinter as ctk
 
@@ -12,6 +13,10 @@ class Surface:
     def __get_values(self, coord):
         if isinstance(coord, tuple):
             x, y = coord
+            return x, y
+        elif isinstance(coord, Vector2):
+            x = coord.x
+            y = coord.y
             return x, y
         elif isinstance(coord, list) or isinstance(coord, Sequence):
             return tuple(coord) 

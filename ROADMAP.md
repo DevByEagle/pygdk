@@ -6,5 +6,6 @@ This document outlines the planned milestones, features, and improvements for th
 
 ### **v1.0.0 (Initial Release)**
 - **Core Features:**
-  - [ ] Package setup with basic functionality
+  - [x] Package setup with basic functionality
+  - [ ] Develop a basic time system
   - [ ] Basic documentation and usage examples
