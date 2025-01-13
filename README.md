@@ -29,4 +29,8 @@ Start using **Pygdk** with minimal setup:
 
 ```python
 import pygdk
+
+window = pygdk.init(800, 600, "Example")
+pygdk.draw.drawText(window, "Hello World", pygdk.font.Font(size=20))
+window.show()
 ```
